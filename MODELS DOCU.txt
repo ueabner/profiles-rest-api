@@ -1,0 +1,7 @@
+..............MODELS...........
+DESCRIBE THE DATA WE NEED TO OUR APP
+DJANGO handles the relationship with our model and the database for use
+so we dont have to write any SQL
+...............................
+
+

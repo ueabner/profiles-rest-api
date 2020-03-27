@@ -1,0 +1,87 @@
+QUIERO APRENDER A USAR https://jekyllrb.com/docs/usage/
+MEJOR PAGINA DE DOWNLOADS
+
+
+https://www.programming-book.com/?s=DJANGO
+
+https://www.youtube.com/watch?v=RuhMiJS3GEY
+Tropical Adventure Megamix (Future Funk - Vaporwave - Electronic Mix)
+
+https://www.youtube.com/watch?v=tbWS0j2fulY
+https://www.youtube.com/watch?v=qXC4AyjRikg
+FUTURE FUNK
+
+ "Live life to the fullest, and focus on the positive." Matt Cameron
+
+"The only disability in life is a bad attitude." Scott Hamilton
+
+"Life isn't about finding yourself. Life is about creating yourself." George Bernard Shaw
+
+"The quality of a person's life is in direct proportion to their commitment to excellence, regardless of their chosen field of endeavor." Vince Lombardi
+
+"All life is an experiment. The more experiments you make the better." Ralph Waldo Emerson
+
+"My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style." Maya Angelo
+cd vagrant
+
+. "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much." Jim Rohn
+
+. "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much." Jim Rohn
+
+ "In the end, it's not the years in your life that count. It's the life in your years." Abraham Lincoln
+
+
+"Life is not a problem to be solved, but a reality to be experienced." Soren Kierkegaard
+
+"What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds." Wayne Dyer
+
+
+
+DIE HARD ARCADE SEGA
+
+vagrant init ubuntu/bionic64
+
+
+add to PATH POWERSHELL IF NEDED:
+C:\Windows\System32\WindowsPowerShell\v1.0
+
+CONECTA A VAGRANT
+vagrant ssh
+
+INSTALA PYTHON
+python -m venv ~/env 
+source ~/env/bin/activate
+
+ --------------------CONECTAR A VAGRANT ----------------
+> vagrant up
+> vagrant ssh
+
+si se cicla hacer click izquierdo hasta q aparezca:
+
+Last login: Thu Mar 26 06:37:54 2020 from 10.0.2.2
+vagrant@ubuntu-bionic:~$
+
+--------------------------------------------------
+           DESPUES
+> cd /vagrant/
+> source ~/env/bin/activate
+           Y APARECE: (env) vagrant@ubuntu-bionic:~$
+----------------------------------------------------------
+
+
+
+CREAR PROYECTO>
+> django-admin.py startproject profiles_project . 
+
+CREAR APP>
+> python manage.py startapp profiles_api
+------------------- TEST ----------------------
+python manage.py runserver 0.0.0.0:8000
+TESTE IT ON http://127.0.0.1:8000/
+
+--------------- GIT IT-----------
+git add .
+git commit -am "Created django project"
+git push origin 
+
+

@@ -1,0 +1,44 @@
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+https://github.com/LondonAppDev/build-a-backend-api-python-drf-beginner-cheat-sheet/blob/master/README.md
+
+---- git ignore!
+https://gist.github.com/LondonAppDev/dd166e24f69db4404102161df02a63ff
+
+------------------------------------------
+git init
+git add .
+git commit -am "aqui pones tus coomments..commit inicial"
+
+
+-------------- PUSHING TO GITHUB ----------------------------
+
+
+
+--para asegurarnos que no hay ninguna KEY existente
+ls ~/.ssh
+
+ssh-keygen -t rsa -b 4096 -C "aeuriarte@hotmail.com"
+
+cat ~/.ssh/id_rsa.pub
+
+COPIAR TODA LA KEY QUE SE GENERA Y PONERLA EN GITHUB
+EN ADD SSH KEY
+
+
+git@github.com:ueabner/profiles-rest-api.git
+https://github.com/ueabner/profiles-rest-api.git
+
+----------Then PASTE THIS IN BASH
+git remote add origin https://github.com/ueabner/profiles-rest-api.git
+git push -u origin master
+
+ueabner>nowi2929
+
+
+
+
+
+
+
+
+
